@@ -427,6 +427,7 @@ color: #00AFD2;
     margin-top: 40px;
     transition: 0.25s;
     cursor: pointer;
+    text-transform: uppercase;
 }
 
 .atlas-button a,
@@ -831,6 +832,9 @@ header .container {
 
 .modal {
     z-index: 99999;
+}
+.modal-body-pdf  {
+    height: 600px!important;
 }
 
 .modal-content {

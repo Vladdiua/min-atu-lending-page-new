@@ -22,6 +22,8 @@
     <!-- Custom styles for this template -->
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <link rel="import" href="map/index.html">
 
 
@@ -153,11 +155,8 @@
 
                             <div class="grey-background atlas-description">
                                 <p>
-                                    В атласі нижче ви знайдете коротку характеристику адміністративно-територіального устрою України в
-                                    цілому та областей окремо. У ньому вперше відображено новий адміністративно-територіальний устрій
-                                    України районного та базового рівнів, який був затверджений урядом України у червні 2020 року
-                                    та постановою Верховної Ради України у липні 2020 року. <br /> <br />
-                                    <b>Клікніть на область, щоб переглянути інформацію про її АТУ.</b>
+                                   В атласі нижче ви знайдете коротку характеристику адміністративно-територіального устрою України в цілому, областей, автономії, міст із спеціальним статусом, районів, та територіальних громад окремо. В оновленій версії атласу відображено новий адміністративно-територіальний устрій України районного та базового рівнів, який був затверджений урядом України у червні 2020 року та постановою Верховної Ради України у липні 2020 року. Вперше підготовлено окремі карти нових районів із інфографікою короткої характеристики кожної територіальної громади, в тому числі надано повний та найбільш актуальний склад населених пунктів, що входять до територіальних громад.<br /> <br />
+                                    <b>Клікніть на область (місто), щоб переглянути інформацію про її АТУ</b>
                                 </p>
                             </div>
                         </div>
@@ -166,13 +165,18 @@
             </div>
         </div>
         <div class="container map-container">
-            <object id="svg-object" data="static/ukraine-atu.svg" type="image/svg+xml"></object>
+            <object id="svg-object" data="static/ukraine-atu.svg" type="image/svg+xml">
+                <map name="image-map">
+    <area target="" alt="" title="" href="" coords="554,227,9" shape="circle">
+</map>
+            </object>
             <div class="row">
                 <div class="col-md-4 atlas-button-flex-container">
                     <div class="col-md-3">
                         <a class="download-file" href="#buttons" onclick="show_atu_oblast()"><button class="atlas-button" style="margin-top: 20px;">АТУ ОБЛАСТЕЙ</button></a>
                         <a class="download-file" href="#buttons" onclick="show_atu_marks()"><button class="atlas-button">УМОВНІ ПОЗНАЧЕННЯ</button></a>
-                        <a class="download-file" href="static/Атлас_нового_АТУ_2020__електронна_версія_.pdf" download="Атлас_нового_АТУ_2020__електронна_версія_.pdf"><button class="atlas-button">ЗАВАНТАЖИТИ АТЛАС PDF</button></a>
+                        <a class="download-file" href="https://drive.google.com/file/d/1iKsnX4KJ_Oo-83VT9NYNzJ-n9nPIYUkP/view?usp=sharing"><button class="atlas-button">завантажити 
+Атлас PDF (245 мб)</button></a>
                     </div>
                 </div>
             </div>
@@ -444,9 +448,14 @@
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <div class="modal-body">
+                    <div class="modal-body modal-body-pdf">
+                        <iframe id="image-holder1" src=""></iframe>
+<!--                        <embed id="image-holder1" src="" type="application/pdf" width="100%" height="800px" />-->
+
+<!--
                         <img src="" id="image-holder1" />
                         <img src="" id="image-holder2" />
+-->
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Назад</button>
@@ -529,17 +538,18 @@
 <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="static/back.svg" /></button>
 
     <script src="script.js"></script>
+    <script src="https://cdnjs.com/libraries/pdf.js"></script>
 
     <script>
         function show_atu_oblast() {
-            var base_dir = 'static/atlas_materials/';
-            changeImg(base_dir + 'atu_oblast1.png', base_dir + 'atu_oblast2.png')
+               var base_dir = 'https://drive.google.com/file/d/'
+             changeImg(base_dir + "1VHKJSfxZBag_sJ5W5uB_3MkTdNiNyKz-/preview")
             $('#exampleModalCenter').modal('show');
         }
 
         function show_atu_marks() {
-            var base_dir = 'static/atlas_materials/';
-            changeImg(base_dir + "umovni-poznachennya.png", "")
+               var base_dir = 'https://drive.google.com/file/d/'
+            changeImg(base_dir + "1l6ekGYmoJa5_Y-Nyp8SSXMgiZxwsg4JN/preview")
             $('#exampleModalCenter').modal('show');
         }
     </script>
