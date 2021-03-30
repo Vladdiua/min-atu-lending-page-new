@@ -296,12 +296,12 @@ window.addEventListener("load", function () {
     });
     var svg = svgObject.getElementById('obl_chernihiv');
     svg.addEventListener('click', event => {
-       changeImg(base_dir + '14RYMZTToO6Bz3YYFa3T-ad62o7W8-N_e/preview')
+       changeImg(base_dir + '1WWCie_kGr0fCgLbi1-zFtLnqEXqbQD-M/preview')
         $('#exampleModalCenter').modal('show');
     });
     var svg = svgObject.getElementById('obl_chernivtsi');
     svg.addEventListener('click', event => {
-        changeImg(base_dir + '1WWCie_kGr0fCgLbi1-zFtLnqEXqbQD-M/preview')
+        changeImg(base_dir + '14RYMZTToO6Bz3YYFa3T-ad62o7W8-N_e/preview')
         $('#exampleModalCenter').modal('show');
     });
 });
