@@ -164,144 +164,144 @@ window.addEventListener("load", function () {
 
     var svg = svgObject.getElementById('obl_crimea');
     svg.addEventListener('click', event => {
-       changeImg(base_dir + '1VxqeU57yzTXhPbKEuF18WtuQA0nxWAZ4/preview')
+       changeImg(base_dir + '1Llh7uMOh1DpnwRUh45ejwRQIyrwjNurs/preview')
         $('#exampleModalCenter').modal('show');
-         console.log('Крим наш!');
+         console.log('Крим - це Україна!');
     });
 
     var svg = svgObject.getElementById('obl_zhytomyr');
     svg.addEventListener('click', event => {
-       changeImg(base_dir + '1WfbLkhr3cttOvVT_5GZ5srXvos0Ufk4s/preview')
+       changeImg(base_dir + '1bnRXnh_54ARPVGAxE8x4Zc9X-_1tMgZI/preview')
         $('#exampleModalCenter').modal('show');
     });
 
     var svg = svgObject.getElementById('obl_vinnytsia');
     svg.addEventListener('click', event => {
-        changeImg(base_dir + '109WlzErw0wJTAncupL3d1oqW2vIxqw_f/preview')
+        changeImg(base_dir + '1Mi_mDzHJYIzmNHyl5oaa6jzyAOSjLt8T/preview')
         $('#exampleModalCenter').modal('show');
     });
 
 
     var svg = svgObject.getElementById('obl_volyn');
     svg.addEventListener('click', event => {
-       changeImg(base_dir + '1f6FtrFCFr704Xsm1vFOkbE5dzm4C29TK/preview')
+       changeImg(base_dir + '10p7ukaXDon-hFYmHexhVVj8GrgetREyK/preview')
         $('#exampleModalCenter').modal('show');
     });
 
     var svg = svgObject.getElementById('obl_dnipro');
     svg.addEventListener('click', event => {
-       changeImg(base_dir + '15wDIi2pF3UgYCacbbAjexH6asDlkSBzs/preview')
+       changeImg(base_dir + '1UJnb0zerIDExnvoavPiCfJvAKANbxlv2/preview')
         $('#exampleModalCenter').modal('show');
     });
     var svg = svgObject.getElementById('obl_donetsk');
     svg.addEventListener('click', event => {
-        changeImg(base_dir + '13DyP68sL6GQoKDimCk9oKyAx4Ec-UALX/preview')
+        changeImg(base_dir + '18t19_y2d4VAV_DsOSe7o9PHeuugMLcEw/preview')
         $('#exampleModalCenter').modal('show');
     });
     var svg = svgObject.getElementById('obl_zakarpattia');
     svg.addEventListener('click', event => {
-        changeImg(base_dir + '1U5ctCU_nnS4KgipOf_rV8i9zL_8jMBn8/preview')
+        changeImg(base_dir + '1HrjirpBChFW9WEaDe3F5TpHmd2RSBKII/preview')
         $('#exampleModalCenter').modal('show');
     });
     var svg = svgObject.getElementById('obl_zaporizhzhia');
     svg.addEventListener('click', event => {
-        changeImg(base_dir + '1Jx1L60TBJaIu_57M-AbYlHw5BKf-atYO/preview')
+        changeImg(base_dir + '17k2A6whS61Pjp7CHEOWwmXO-O2ESvCMI/preview')
         $('#exampleModalCenter').modal('show');
     });
     var svg = svgObject.getElementById('obl_frankivsk');
     svg.addEventListener('click', event => {
-      changeImg(base_dir + '11ntR9OopxrMlZRnjogWucT91uSxPoHUc/preview')
+      changeImg(base_dir + '1KxP_EF59kMDAhufV_WO0OyjG1wVGDqt7/preview')
         $('#exampleModalCenter').modal('show');
     });
     var svg = svgObject.getElementById('obl_kyiv');
     svg.addEventListener('click', event => {
-        changeImg(base_dir + '1Lf1ntx_JuSFC6QL_Rtvvnm5_bj6Hnns0/preview')
+        changeImg(base_dir + '1173wO4snJKME14j44r-tiB_SQA1HGAIy/preview')
         $('#exampleModalCenter').modal('show');
     });
     var svg = svgObject.getElementById('Kuiv');
     svg.addEventListener('click', event => {
-        changeImg(base_dir + '1Vd5a4hx4ZRQgtj2hS8gdBiEAdWFi0leI/preview')
+        changeImg(base_dir + '1gEC0ajNrdQrq6jfT1sH1wRiWkyhNZImz/preview')
         $('#exampleModalCenter').modal('show');
     });  
     var svg = svgObject.getElementById('Sevastopol');
     svg.addEventListener('click', event => {
-        changeImg(base_dir + '1Erkx1jJTEhjjmoTmFLwN6-o52T2K3_9Y/preview')
+        changeImg(base_dir + '1MlViJXHXd77NVp6nxQGWxZj52ZGGHP_n/preview')
         $('#exampleModalCenter').modal('show');
     });
     var svg = svgObject.getElementById('obl_kirovohrad');
     svg.addEventListener('click', event => {
-       changeImg(base_dir + '1odKjXqgFkurDTLgCpqutsIdvJfnzl-NZ/preview')
+       changeImg(base_dir + '1BVclprdwE3RvKBwFJBfmcDK2ZWxhR1hc/preview')
         $('#exampleModalCenter').modal('show');
     });
     var svg = svgObject.getElementById('obl_luhansk');
     svg.addEventListener('click', event => {
-        changeImg(base_dir + '163lTjUaJOMRoSwW3J1OZ98FYU_7ObSnY/preview')
+        changeImg(base_dir + '1jfCcxuFXCtv9pFjbTqquuz4-e1I_z2QP/preview')
         $('#exampleModalCenter').modal('show');
     });
     var svg = svgObject.getElementById('obl_lviv');
     svg.addEventListener('click', event => {
-        changeImg(base_dir + '1fToxvDVDbrCJRKrvFPI-VOuAKBh1v08E/preview')
+        changeImg(base_dir + '1PREEWuVkCGLEqWYYI6WVP1sqcPKv0f-Y/preview')
         $('#exampleModalCenter').modal('show');
     });
     var svg = svgObject.getElementById('obl_mykolaiv');
     svg.addEventListener('click', event => {
-        changeImg(base_dir + '1IjwV9jlAb_Ko6NkU0QKYiTG9gy35CP5a/preview')
+        changeImg(base_dir + '194AjzX0Ko5aBIUnImfkjHpzqtnEibb4u/preview')
         $('#exampleModalCenter').modal('show');
     });
     var svg = svgObject.getElementById('obl_odesa');
     svg.addEventListener('click', event => {
-        changeImg(base_dir + '1wI5354cmhMXc0LnfezXiTEo3Mmth-A3u/preview')
+        changeImg(base_dir + '1vxmKCr7fXStC-afp0aUUXHI0NONPMBew/preview')
         $('#exampleModalCenter').modal('show');
     });
     var svg = svgObject.getElementById('obl_poltava');
     svg.addEventListener('click', event => {
-       changeImg(base_dir + '1oRXf0lZ_YcZeE0M9KlsHm6N_ATulr_2K/preview')
+       changeImg(base_dir + '1yIhx4EYB2whR8kMkmtSYS7fnpdQX-dX9/preview')
         $('#exampleModalCenter').modal('show');
     });
     var svg = svgObject.getElementById('obl_rivne');
     svg.addEventListener('click', event => {
-        changeImg(base_dir + '1EyBcTvXgL4e-m6bsa2EJRgbNhIkxIw96/preview')
+        changeImg(base_dir + '1bg6pfYeCSnKE3Gique_gKew60n3ZaXh7/preview')
         $('#exampleModalCenter').modal('show');
     });
     var svg = svgObject.getElementById('obl_sumy');
     svg.addEventListener('click', event => {
-        changeImg(base_dir + '1xanHgsYUoMMdlMWN96KuCrPnX2HoD72n/preview')
+        changeImg(base_dir + '1-EXcuZWYixriiWkMXsnm4-iOuPjT9IEf/preview')
         $('#exampleModalCenter').modal('show');
     });
     var svg = svgObject.getElementById('obl_ternopil');
     svg.addEventListener('click', event => {
-        changeImg(base_dir + '1JpUHu7QGIqu3nbRKZFwOSL7PFv-4b_5p/preview')
+        changeImg(base_dir + '1bGqunlydhGPDQgX6axjhB82QfrcOQs_p/preview')
         $('#exampleModalCenter').modal('show');
     });
     var svg = svgObject.getElementById('obl_kharkiv');
     svg.addEventListener('click', event => {
-        changeImg(base_dir + '1HaNgEq8n25YVWNFRhGNRvVLaYLL5V37n/preview')
+        changeImg(base_dir + '1LiudCz9kYJ6S9jCmLOxzdZG7GPlc8lAW/preview')
         $('#exampleModalCenter').modal('show');
     });
     var svg = svgObject.getElementById('obl_kherson');
     svg.addEventListener('click', event => {
-       changeImg(base_dir + 'aK1QIMz3pQDib08v_fwHWThJX/preview')
+       changeImg(base_dir + '1ty_Mm8EdyjF1UqTaNEZVm2eobLubKZkJ/preview')
         $('#exampleModalCenter').modal('show');
     });
     var svg = svgObject.getElementById('obl_khmelnytsk');
     svg.addEventListener('click', event => {
-       changeImg(base_dir + '1j5jdHWcwdClWguwOysbvhgOtEabRgays/preview')
+       changeImg(base_dir + '1ULsqdcXP5pTMzgIzGiPN41VCJbnIhudr/preview')
         $('#exampleModalCenter').modal('show');
     });
 
     var svg = svgObject.getElementById('obl_cherkasy');
     svg.addEventListener('click', event => {
-        changeImg(base_dir + '1vbukXy3B5RoZOprFQFyttjovSE250rA4/preview')
+        changeImg(base_dir + '1X-l7FRHb_lbl4RY-zXjqde30LTTd5ma4/preview')
         $('#exampleModalCenter').modal('show');
     });
     var svg = svgObject.getElementById('obl_chernihiv');
     svg.addEventListener('click', event => {
-       changeImg(base_dir + '1VV4n4DfqTT3CxfdA6uHGexWAb17DPPO0/preview')
+       changeImg(base_dir + '14RYMZTToO6Bz3YYFa3T-ad62o7W8-N_e/preview')
         $('#exampleModalCenter').modal('show');
     });
     var svg = svgObject.getElementById('obl_chernivtsi');
     svg.addEventListener('click', event => {
-        changeImg(base_dir + '1-tV-bo8jdxi6kgr98m8Zfct0KyAUGvX2/preview')
+        changeImg(base_dir + '1WWCie_kGr0fCgLbi1-zFtLnqEXqbQD-M/preview')
         $('#exampleModalCenter').modal('show');
     });
 });
