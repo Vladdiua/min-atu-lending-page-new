@@ -171,7 +171,7 @@ window.addEventListener("load", function () {
 
     var svg = svgObject.getElementById('obl_zhytomyr');
     svg.addEventListener('click', event => {
-       changeImg(base_dir + '1bnRXnh_54ARPVGAxE8x4Zc9X-_1tMgZI/preview')
+       changeImg(base_dir + '1il2MWpyWh_m38BZcBw3kZPRF44D4V_eB/preview')
         $('#exampleModalCenter').modal('show');
     });
 
